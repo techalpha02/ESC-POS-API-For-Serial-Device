@@ -1,0 +1,12 @@
+{
+    "serve": {
+      "port": 5555,
+      "proxy": [
+        {
+          "context": ["/open"],
+          "target": "http://localhost:3000",
+          "secure": false
+        }
+      ]
+    }
+  }
